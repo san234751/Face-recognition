@@ -2,7 +2,7 @@ import face_recognition
 import cv2
 import numpy as np
 vid=cv2.VideoCapture(0)
-my=face_recognition.load_image_file("photo.jpg")
+my=face_recognition.load_image_file("photo.jpeg")
 my_encoding=face_recognition.face_encodings(my)[0]
 mama=face_recognition.load_image_file("elon.jpg")
 mama_encoding=face_recognition.face_encodings(mama)[0]
